@@ -1,6 +1,6 @@
 let constants = {}
-constants.organization = 'poanetwork'
-constants.repoName = 'poa-chain-spec'
+constants.organization = 'lukso-network'
+constants.repoName = 'lukso-chain-spec'
 constants.addressesSourceFile = 'contracts.json'
 constants.ABIsSources = {
   KeysManager: 'KeysManager.abi.json'
