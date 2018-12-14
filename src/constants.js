@@ -8,25 +8,10 @@ constants.ABIsSources = {
 constants.userDeniedTransactionPattern = 'User denied transaction'
 
 constants.NETWORKS = {
-  '77': {
-    NAME: 'Sokol',
-    BRANCH: 'sokol',
+  '22': {
+    NAME: 'L14',
+    BRANCH: 'l14',
     TESTNET: true
-  },
-  '99': {
-    NAME: 'Core',
-    BRANCH: 'core',
-    TESTNET: false
-  },
-  '79': {
-    NAME: 'Dai-Test',
-    BRANCH: 'dai-test',
-    TESTNET: true
-  },
-  '100': {
-    NAME: 'Dai',
-    BRANCH: 'dai',
-    TESTNET: false
   }
 }
 
