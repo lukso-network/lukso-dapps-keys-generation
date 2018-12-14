@@ -9,6 +9,7 @@ export default web3Config => {
   return new Promise((resolve, reject) => {
     fetch(helpers.addressesURL(branch))
       .then(response => {
+    console.log(response)
         response.json().then(json => {
           resolve({ addresses: json, web3Config })
         })
